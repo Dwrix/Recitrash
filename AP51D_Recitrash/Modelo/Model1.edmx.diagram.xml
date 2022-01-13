@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f7fb53cab1bd459db1cdd3bd1213283f" Name="Diagram1">
+        <EntityTypeShape EntityType="AP51D_RecitrashModel.Contenedor" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AP51D_RecitrashModel.Postulacion" Width="1.5" PointX="5.875" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AP51D_RecitrashModel.Rol" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AP51D_RecitrashModel.Sugerencia" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AP51D_RecitrashModel.Tema" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AP51D_RecitrashModel.Usuario" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="AP51D_RecitrashModel.rol_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="AP51D_RecitrashModel.tema_sugerencia" ManuallyRouted="false" />
+        <AssociationConnector Association="AP51D_RecitrashModel.UsuarioContenedor" />
+        <AssociationConnector Association="AP51D_RecitrashModel.UsuarioPostulacion" />
+        <AssociationConnector Association="AP51D_RecitrashModel.UsuarioSugerencia" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

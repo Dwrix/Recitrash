@@ -1,0 +1,303 @@
+﻿* {
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    min-height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    min-height: 100%;
+    background-color: #8EF38F;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+
+
+/*header*/
+.header {
+    background-color: cadetblue;
+    min-height: 150px;
+    border-bottom: 3px black solid;
+
+}
+
+    .header h1 {
+        margin-top: auto;
+        padding-top: 50px;
+    }
+
+.header-tamaño {
+    margin: auto 10px;
+}
+
+@media (min-width:768px ) {
+    .header-destribucion {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 80px;
+    }
+}
+
+.header-partes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+.header-partes a{
+    text-decoration:none;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    background-image: url(../Img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*contenedor*/
+.contenedor {
+    margin: 0 auto;
+    max-width: 120rem;
+}
+
+/*ayuda*/
+
+.ayuda-top {
+    margin-top: 20px;
+}
+
+.ayuda-borde {
+    border: 3px black solid;
+}
+
+.ayuda-padding {
+    padding: 20px;
+}
+
+.ayuda-altura {
+    height: 375px;
+}
+
+.ayuda-bottom{
+    margin-bottom: 100px;
+}
+
+
+/*servicio*/
+.servicio {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    background-color: white;
+}
+
+    .servicio a {
+        text-decoration: none;
+    }
+
+
+.servicio-contenedores {
+    background-image: url(../Img/basurero-colores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servicio-informaciones {
+    background-image: url(../Img/informaciones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servicio-contacto {
+    background-image: url(../Img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (min-width:768px ) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 80px;
+        background-color: #62D264;
+    }
+}
+
+/*boton*/
+.boton {
+    border: 2px black solid;
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+ 
+}
+
+.boton3 {
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+
+.boton2 {
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}   
+
+
+
+/*footer*/
+.footer {
+    border-top: 3px black solid;
+    background-color: #949494;
+    margin-top: 100px;
+    position:relative;
+    
+    bottom:0px;
+
+    
+}
+
+.footer-lista
+{
+    background-color: gray;
+}
+.footer-tamaño {
+    margin: auto 80px;
+}
+
+@media (min-width:768px ) {
+    .footer-destribucion {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 80px;
+    }
+}
+
+.footer-partes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+
+/*login*/
+
+.tblogin{
+    margin-top: 20px;
+    background-color:darkgray;
+    border-radius: 20px;
+    height: 200px;
+    width: 360px;
+    text-align:center;
+}
+
+#BtnLogin{
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+#TxtUsuario{
+    margin: 10px;
+}
+
+.tduserpw{
+    width:110px;
+}
+
+/*sugerencia*/
+
+.tblsugerencia{
+
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 450px;
+    width: 400px;
+
+}
+
+.titsuger{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.datossuger {
+    text-align: center;
+}
+
+#BtnRegistro{
+    margin-left: 50px;
+}
+
+/*Contenedores*/
+
+.tblcontenedores{
+    background-color:darkgray;
+    margin-top:50px;
+    border-radius: 20px;
+    height: 250px;
+    width: 380px;
+}
+
+.datocontenedor{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+#BtnEnviar{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/*Registro*/
+
+.tblRegistro {
+    background-color: darkgray;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 250px;
+    width: 380px;
+}
+
+.titregistro{
+    text-align:center;
+    font-weight: bold;
+}
+
+#BntEnviar {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.datoregistro {
+    text-align: center;
+    padding: 10px;
+}
+
